@@ -1,10 +1,12 @@
 #pragma once
 
+//welcome to matthew land
+
 #include <iostream>
 #include <unordered_map>
 using namespace std;
 
-class Variable {
+class Var {
 	unordered_map<char, int> vars;
 
 	public:
