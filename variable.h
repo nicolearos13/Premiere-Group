@@ -10,6 +10,6 @@ class Var {
 	unordered_map<char, int> vars;
 
 	public:
-		int get_val(char name);
-		void set_val(char name, int val);
+		int get_val(const char name);
+		void set_val(const char name, const int val);
 };
